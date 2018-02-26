@@ -1,0 +1,32 @@
+{
+  "name": "nimn-date-parser",
+  "version": "1.0.0",
+  "description": "Compress date for nimnjs",
+  "main": "dateparser.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine tests/*test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimndata/nimnjs-date-parser.git"
+  },
+  "keywords": [
+    "nimn",
+    "nimnjs",
+    "date",
+    "parser"
+  ],
+  "author": "Amit Gupta (https://github.com/amitguptagwl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimndata/nimnjs-date-parser/issues"
+  },
+  "homepage": "https://github.com/nimndata/nimnjs-date-parser#readme",
+  "dependencies": {
+    "jasmine": "^3.0.0",
+    "jasmine-core": "^2.99.1"
+  }
+}
