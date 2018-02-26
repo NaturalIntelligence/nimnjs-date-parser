@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jasmine tests/*test.js"
+    "test": "jasmine tests/*test.js",
+    "bundle": "browserify dateparser.js -s nimn -o dist/nimn-dateparser.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
   "devDependencies": {
     "jasmine": "^3.0.0",
     "jasmine-core": "^2.99.1"
+  },
+  "devDpendencies": {
+    "browserify": "^16.1.0"
   }
 }
