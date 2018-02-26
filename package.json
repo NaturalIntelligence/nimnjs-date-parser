@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nimndata/nimnjs-date-parser.git"
+    "url": "https://github.com/nimndata/nimnjs-date-parser.git"
   },
   "keywords": [
     "nimn",
@@ -25,7 +25,7 @@
     "url": "https://github.com/nimndata/nimnjs-date-parser/issues"
   },
   "homepage": "https://github.com/nimndata/nimnjs-date-parser#readme",
-  "dependencies": {
+  "devDependencies": {
     "jasmine": "^3.0.0",
     "jasmine-core": "^2.99.1"
   }
